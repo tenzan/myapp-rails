@@ -11,11 +11,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should get buying" do
-    get static_pages_buying_url
-    assert_response :success
-  end
-
   test "should get lending" do
     get static_pages_lending_url
     assert_response :success
@@ -28,11 +23,6 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
 
   test "should get managing" do
     get static_pages_managing_url
-    assert_response :success
-  end
-
-  test "should get property0" do
-    get static_pages_property0_url
     assert_response :success
   end
 end

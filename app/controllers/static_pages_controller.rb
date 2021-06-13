@@ -5,9 +5,6 @@ class StaticPagesController < ApplicationController
   def selling
   end
 
-  def buying
-  end
-
   def lending
   end
 
@@ -15,8 +12,5 @@ class StaticPagesController < ApplicationController
   end
 
   def managing
-  end
-
-  def property0
   end
 end
