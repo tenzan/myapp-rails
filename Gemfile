@@ -57,3 +57,4 @@ group :production do
 end
 
 gem 'simple_form'
+gem 'rexml'
