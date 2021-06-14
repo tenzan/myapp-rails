@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :properties
   get 'static_pages/home'
   get 'static_pages/selling'
   get 'static_pages/lending'

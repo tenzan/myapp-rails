@@ -10,6 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2021_06_14_125703) do
+
+  create_table "properties", force: :cascade do |t|
+    t.string "location"
+    t.string "transportation"
+    t.decimal "land_area"
+    t.string "lang_rights"
+    t.string "land_purpose"
+    t.string "city_planning"
+    t.string "use_area"
+    t.string "inpei"
+    t.string "yoseki"
+    t.string "present_condition"
+    t.string "hand_over"
+    t.text "notes"
+    t.integer "price"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
 end

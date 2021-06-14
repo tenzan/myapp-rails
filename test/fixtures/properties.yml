@@ -1,0 +1,31 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  location: MyString
+  transportation: MyString
+  land_area: 9.99
+  lang_rights: MyString
+  land_purpose: MyString
+  city_planning: MyString
+  use_area: MyString
+  inpei: MyString
+  yoseki: MyString
+  present_condition: MyString
+  hand_over: MyString
+  notes: MyText
+  price: 1
+
+two:
+  location: MyString
+  transportation: MyString
+  land_area: 9.99
+  lang_rights: MyString
+  land_purpose: MyString
+  city_planning: MyString
+  use_area: MyString
+  inpei: MyString
+  yoseki: MyString
+  present_condition: MyString
+  hand_over: MyString
+  notes: MyText
+  price: 1
